@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - Dy Gaming Store</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/544d79f6c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="login-page">
+	<header>
+		<div class="logo">Dy Gaming Store</div>
+		<nav>
+			<ul class="nav-links">
+				<li><a href="shop.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="privacy-policy.html">Privacy Policy</a></li>
+			</ul>
+		</nav>
+		<div class="cart-container">
+			<i class="fa-solid fa-cart-shopping"></i>
+			<span class="cart-count">0</span>
+			<div class="cart-dropdown">
+				<div class="cart-items">
+					<!-- Cart items will be dynamically added here -->
+				</div>
+				<div class="cart-total">
+					<span>Total: $<span id="cart-total-amount">0.00</span></span>
+				</div>
+				<button class="checkout-btn">Checkout</button>
+			</div>
+		</div>
+		<a href="GGDy.html" class="home-btn"><i class="fa-solid fa-house"></i> Home</a>
+	</header>
+
+	<main class="auth-container">
+		<section class="login-section">
+			<div class="auth-header">
+				<i class="fa-solid fa-user-plus"></i>
+				<h2>Create Your Account</h2>
+			</div>
+			<form id="registerForm">
+				<div class="input-group">
+					<i class="fa-solid fa-user"></i>
+					<input type="text" id="registerUsername" placeholder="Username" required>
+				</div>
+				<div class="input-group">
+					<i class="fa-solid fa-envelope"></i>
+					<input type="email" id="registerEmail" placeholder="Email" required>
+				</div>
+				<div class="input-group">
+					<i class="fa-solid fa-lock"></i>
+					<input type="password" id="registerPassword" placeholder="Password" required>
+				</div>
+				<div class="input-group">
+					<i class="fa-solid fa-lock"></i>
+					<input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+				</div>
+				<div class="terms-checkbox">
+					<label>
+						<input type="checkbox" required> I agree to the <a href="privacy-policy.html">Terms & Conditions</a>
+					</label>
+				</div>
+				<button type="submit" class="auth-button">
+					<i class="fa-solid fa-user-plus"></i> Create Account
+				</button>
+			</form>
+			<div class="auth-footer">
+				<p>Already have an account? <a href="login.html">Login</a></p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2025 Dy Gaming Store. All Rights Reserved</p>
+		<div class="social-links">
+			<i class="fa-brands fa-facebook" title="Follow us on Facebook"></i>
+			<i class="fa-brands fa-whatsapp" title="Chat with us on WhatsApp"></i>
+			<i class="fa-brands fa-instagram" title="Follow us on Instagram"></i>
+			<i class="fa-brands fa-discord" title="Join our Discord server"></i>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

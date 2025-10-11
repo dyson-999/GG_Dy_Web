@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Database
+*.sql
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# Cache
+cache/
+tmp/
+temp/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+composer.phar
+composer.lock
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration files with sensitive data
+config/local.php
+config/production.php
+
+# Upload directories (if they contain user uploads)
+uploads/
+user_uploads/
+
+# Session files
+sessions/
+
+# Cache directories
+cache/
+smarty_cache/
+smarty_templates_c/
+
+# Test files
+test/
+tests/
+phpunit.xml
+
+# Documentation build
+docs/_build/
+
+# Coverage reports
+coverage/
+*.coverage
+
+# Local development
+local/
+dev/

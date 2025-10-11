@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GGDy</title>
+<link rel = "stylesheet" href = "style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/544d79f6c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	
+<header>
+  <div class = "logo">Dy Gaming Store</div>
+  <nav>
+    <ul class="nav-links">
+      <li> <a href = "shop.html"> Products</a></li>
+      <li> <a href = "about.html"> About</a></li>
+      <li> <a href = "contact.html"> Contact</a></li>
+      <li> <a href = "privacy-policy.html"> Privacy Policy</a></li>
+    </ul>
+  </nav>
+  <div class="cart-container">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span class="cart-count">0</span>
+    <div class="cart-dropdown">
+      <div class="cart-items">
+        <!-- Cart items will be dynamically added here -->
+      </div>
+      <div class="cart-total">
+        <span>Total: $<span id="cart-total-amount">0.00</span></span>
+      </div>
+      <button class="checkout-btn">Checkout</button>
+    </div>
+  </div>
+  <a href="login.html" class="login-btn"><i class="fa-solid fa-user"></i> Log in / Sign up</a>
+	<div class="menu-toggle">
+		<i class="fa-solid fa-bars"></i>
+	</div>
+</header>
+	
+	
+<section class ="hero">
+  <h1> Welcome to the Ultimate Gaming Store</h1>
+  <p>Find the best gaming gear at unbeatable prices.</p>
+  <a href="shop.html" class="cta-button" id="cta-button">
+    Shop Now
+  </a>
+</section>
+<section class="ai-recommendations">
+  <h2>Recommended for You</h2>
+  <div id="recommendationList">
+    <p>Loading recommendations...</p>
+  </div>
+</section>
+
+<!-- Flash Deals -->
+
+<section id="flash-deals">
+  <h2> Limited-Time Flash Deals</h2>
+  <div class="deal-wrapper">
+    <div class="deal-container"> <img src="images/frz.jpg" alt="Forza Horizon 5" class="deal-image">
+      <div class="deal-info">
+        <h3>Forza Horizon 5</h3>
+        <p>Get 50% OFF for the next:</p>
+        <div class="countdown" id="countdown1">00:00:00</div>
+        <button class="shop-now">Shop Now</button>
+      </div>
+    </div>
+    <div class="deal-container"> <img src="images/acm.jpg" alt="Assassin's Creed Mirage" class="deal-image">
+      <div class="deal-info">
+        <h3>Assassin's Creed Mirage</h3>
+        <p>Get 40% OFF for the next:</p>
+        <div class="countdown" id="countdown2">00:00:00</div>
+        <button class="shop-now">Shop Now</button>
+      </div>
+    </div>
+    <div class="deal-container"> <img src="images/bw.jpg" alt="Black Myth: Wukong" class="deal-image">
+      <div class="deal-info">
+        <h3>Black Myth: Wukong</h3>
+        <p>Get 30% OFF for the next:</p>
+        <div class="countdown" id="countdown3">00:00:00</div>
+        <button class="shop-now">Shop Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- discount-notifications -->
+
+<div id="discount-notifications">
+  <div class="notification" id="notification1"> <img src="images/frz.jpg" alt="Forza Horizon 5">
+    <p> Forza Horizon 5 - Now 50% OFF!</p>
+    <button onClick="closeNotification('notification1')"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="notification" id="notification2"> <img src="images/acm.jpg" alt="Assassin's Creed Mirage">
+    <p> Assassin's Creed Mirage - Now 40% OFF!</p>
+    <button onClick="closeNotification('notification2')"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="notification" id="notification3"> <img src="images/bw.jpg" alt="Black Myth: Wukong">
+    <p> Black Myth: Wukong - Now 30% OFF!</p>
+    <button onClick="closeNotification('notification3')"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+</div>
+
+<!-- Ad - Slide Show -->
+
+<div class="banner-slideshow">
+  <div class="slides">
+    <div class="slide"><a href="product-rog.html"><img src="images/roglap.jpg" alt="Ad 1"></a></div>
+    <div class="slide"><a href="product-msi.html"><img src="images/msilap.jpg" alt="Ad 2"></a></div>
+    <div class="slide"><a href="product-legion.html"><img src="images/legionlap.jpg" alt="Ad 3"></a></div>
+    <div class="slide"><a href="products-rtx.html"><img src="images/rtx.jpg" alt="Ad 4"></a></div>
+    <div class="slide"><a href="products-amd.html"><img src="images/amd.jpg" alt="Ad 5"></a></div>
+  </div>
+  
+  <!-- Left and Right Arrows -->
+  <button class="prev" onClick="changeSlide(-1)">&#10094;</button>
+  <button class="next" onClick="changeSlide(1)">&#10095;</button>
+</div>
+<section class="featured-products">
+  <h2>Featured Products</h2>
+  <div class="product-grid">
+    <div class="product-card1"> <img src="dym.png" alt="Gaming Mouse">
+      <h3>ROG Strix Impact III</h3>
+      <span class="price">$61.99</span>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card1"> <img src="h525.png" alt="Mechanical Keyboard">
+      <h3>ROG Strix Scope II</h3>
+      <span class="price">$119.99</span>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<!-- Section for user reviews -->
+<section class="user-reviews">
+  <h2>Community Reviews</h2>
+  
+  <!-- Submission from -->
+  <form id="reviewForm">
+    <input type="text" id="username" placeholder="Your Name" required>
+    <textarea id="reviewText" placeholder="Write your review..." required></textarea>
+    <button type="submit">Submit Review</button>
+  </form>
+  
+  <!-- Display reviews -->
+  <div id="reviewList">
+    <p>No reviews yet. Be the first to review!</p>
+  </div>
+</section>
+<section class="discussion-form">
+  <h2>Discussion Forum</h2>
+  
+  <!-- New Discussion Post -->
+  <form id="forumForm">
+    <input type="text" id="forumUser" placeholder="Your Name" required>
+    <textarea id="forumText" placeholder="Start a discussion..." required></textarea>
+    <button type="submit">Post</button>
+  </form>
+  
+  <!-- Display Forum Posts-->
+  <div id="forumPosts">
+    <p>No Discussions yet. Start a conversation!</p>
+  </div>
+</section>
+<footer>
+  <p>&copy; 2025 Dy Gaming Store. All Rights Reserved</p>
+  <div class="social-links">
+    <i class="fa-brands fa-facebook" title="Follow us on Facebook"></i>
+    <i class="fa-brands fa-whatsapp" title="Chat with us on WhatsApp"></i>
+    <i class="fa-brands fa-instagram" title="Follow us on Instagram"></i>
+    <i class="fa-brands fa-discord" title="Join our Discord server"></i>
+  </div>
+</footer>
+<script src="script.js"></script> <!-- Link to JS file -->
+</body>
+</html>

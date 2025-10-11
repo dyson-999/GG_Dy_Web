@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop - Dy Gaming Store</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/544d79f6c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header>
+  <div class = "logo">Dy Gaming Store</div>
+  <nav>
+    <ul class="nav-links">
+      <li> <a href = "shop.html"> Products</a></li>
+      <li> <a href = "about.html"> About</a></li>
+      <li> <a href = "contact.html"> Contact</a></li>
+      <li> <a href = "privacy-policy.html"> Privacy Policy</a></li>
+    </ul>
+  </nav>
+  <div class="cart-container">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span class="cart-count">0</span>
+    <div class="cart-dropdown">
+      <div class="cart-items">
+        <!-- Cart items will be dynamically added here -->
+      </div>
+      <div class="cart-total">
+        <span>Total: $<span id="cart-total-amount">0.00</span></span>
+      </div>
+      <button class="checkout-btn">Checkout</button>
+    </div>
+  </div>
+  <a href="login.html" class="login-btn"><i class="fa-solid fa-user"></i> Log in / Sign up</a>
+  <a href="GGDy.html" class="home-btn"><i class="fa-solid fa-house"></i> Home</a>
+  <div class="menu-toggle"> <i class="fa-solid fa-bars"></i> </div>
+</header>
+<aside class="sidebar">
+  <h2>Categories</h2>
+  <ul class="category-list">
+    <li><a href="#" data-category="pc-games">PC Games</a></li>
+    <li><a href="#" data-category="consoles"> <i class="fa-brands fa-playstation"></i>Consoles </a></li>
+    <li><a href="#" data-category="accessories">Accessories</a></li>
+    <li><a href="#" data-category="gaming-chairs">Gaming Chairs</a></li>
+  </ul>
+  <h2>Filters</h2>
+  <div class="filter-section">
+    <h3>Brand</h3>
+    <label>
+      <input type="checkbox" name="brand" value="rog">
+      ROG</label>
+    <label>
+      <input type="checkbox" name="brand" value="razer">
+      Razer</label>
+    <label>
+      <input type="checkbox" name="brand" value="corsair">
+      Corsair</label>
+  </div>
+  <div class="filter-section">
+    <h3>Price Range</h3>
+    <input type="range" id="price-range" min="0" max="5000" step="100">
+    <span id="price-value"> $0 - $5000</span>
+  </div>
+  <div class="filter-section">
+    <h3>Compatibility</h3>
+    <label>
+      <input type="checkbox" name="compatibility" value="pc">
+      PC</label>
+    <label>
+      <input type="checkbox" name="compatibility" value="xbox">
+      Xbox</label>
+    <label>
+      <input type="checkbox" name="compatibility" value="playstation">
+      PlayStation</label>
+  </div>
+  <button class="clear-filters">Clear Filters</button>
+</aside>
+
+<!-- Main Content Area -->
+
+<main class="product-list">
+  <h1>All Products</h1>
+  <div class="products-container"> 
+    <div class="product-card"> <img src="images/EN_EGST_StorePortrait_1200x1600_1200x1600-a010fb65414cbbc48e055d1f6eac41b8.jpg" alt="PC Game">
+      <h3>Assassin's Creed Shadows</h3>
+      <p>Assassin's Creed Shadows is an upcoming action role-playing game developed by Ubisoft Quebec and published by Ubisoft.</p>
+      <span class="price">$59.99</span>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card"> <img src="images/wUFWEjFI4od6xvSwf507wFb3psnXvXRkonQjPoMe.png" alt="Gaming Headset">
+      <h3>Asus ROG Delta II Wireless Gaming Headset</h3>
+      <p>Tri-mode wireless gaming headset with ROG SpeedNova.</p>
+      <span class="price">$249.99</span>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card"> <img src="images/rog5090.png" alt="Graphics Card">
+      <h3>Asus ROG RTX 5090 Astral 32GB GDDR7</h3>
+      <p>The ROG Astral GeForce RTX 5090 introduces ROG's first quad-fan graphics card.</p>
+      <span class="price">$4499.99</span>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card"> <img src="images/rogch.png" alt="Gaming Chair">
+      <h3>Asus SL301C ROG Chariot X</h3>
+      <p>ROG Chariot X gaming chair in racing-car style, featuring an adjustable high-density foam headrest, memory-foam lumbar support, 4D armrests.</p>
+      <span class="price">$799.99</span>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</main>
+<script src="script.js"></script>
+<script src="sidebar.js"></script>
+	
+	<footer>
+  <p>&copy; 2025 Dy Gaming Store. All Rights Reserved</p>
+  <div class="social-links">
+    <i class="fa-brands fa-facebook" title="Follow us on Facebook"></i>
+    <i class="fa-brands fa-whatsapp" title="Chat with us on WhatsApp"></i>
+    <i class="fa-brands fa-instagram" title="Follow us on Instagram"></i>
+    <i class="fa-brands fa-discord" title="Join our Discord server"></i>
+  </div>
+</footer>
+</body>
+</html>

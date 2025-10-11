@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Dy Gaming Store</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/544d79f6c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="login-page">
+	<header>
+		<div class="logo">Dy Gaming Store</div>
+		<nav>
+			<ul class="nav-links">
+				<li><a href="shop.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="privacy-policy.html">Privacy Policy</a></li>
+			</ul>
+		</nav>
+		<div class="cart-container">
+			<i class="fa-solid fa-cart-shopping"></i>
+			<span class="cart-count">0</span>
+			<div class="cart-dropdown">
+				<div class="cart-items">
+					<!-- Cart items will be dynamically added here -->
+				</div>
+				<div class="cart-total">
+					<span>Total: $<span id="cart-total-amount">0.00</span></span>
+				</div>
+				<button class="checkout-btn">Checkout</button>
+			</div>
+		</div>
+		<a href="GGDy.html" class="home-btn"><i class="fa-solid fa-house"></i> Home</a>
+	</header>
+
+	<main class="auth-container">
+		<section class="login-section">
+			<div class="auth-header">
+				<i class="fa-solid fa-user-circle"></i>
+				<h2>Login to Your Account</h2>
+			</div>
+			<form id="loginForm">
+				<div class="input-group">
+					<i class="fa-solid fa-envelope"></i>
+					<input type="email" id="loginEmail" placeholder="Email" required>
+				</div>
+				<div class="input-group">
+					<i class="fa-solid fa-lock"></i>
+					<input type="password" id="loginPassword" placeholder="Password" required>
+				</div>
+				<div class="remember-forgot">
+					<label>
+						<input type="checkbox"> Remember me
+					</label>
+					<a href="#" class="forgot-password">Forgot Password?</a>
+				</div>
+				<button type="submit" class="auth-button">
+					<i class="fa-solid fa-right-to-bracket"></i> Login
+				</button>
+			</form>
+			<div class="auth-footer">
+				<p>Don't have an account? <a href="register.html">Create Account</a></p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2025 Dy Gaming Store. All Rights Reserved</p>
+		<div class="social-links">
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-whatsapp"></i>
+			<i class="fa-brands fa-instagram"></i>
+			<i class="fa-brands fa-discord"></i>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
