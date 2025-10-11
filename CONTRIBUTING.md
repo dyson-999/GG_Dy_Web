@@ -212,7 +212,7 @@ Use clear, descriptive commit messages:
 ### Contact
 - Create an issue for bugs or features
 - Use discussions for questions
-- Email: your-email@example.com
+- Email: dilshanudara512@gmail.com
 
 ## 🏆 Recognition
 
