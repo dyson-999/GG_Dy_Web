@@ -217,9 +217,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support, email your-email@example.com or create an issue in the repository.
 
-## 🎮 Demo
-
-Visit the live demo at: [Your Demo URL]
 
 ## 🔮 Future Enhancements
 
