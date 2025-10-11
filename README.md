@@ -213,6 +213,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## 📚 Documentation
+
+- **[Installation Guide](docs/INSTALLATION.md)** - Detailed setup instructions
+- **[API Documentation](docs/API.md)** - Complete API reference
+- **[Deployment Guide](docs/DEPLOYMENT-GUIDE.md)** - How to deploy to various hosting platforms
+- **[Project Structure](PROJECT-STRUCTURE.md)** - Understanding the codebase organization
+- **[Contributing Guidelines](CONTRIBUTING.md)** - How to contribute to the project
+- **[Security Policy](SECURITY.md)** - Security guidelines and vulnerability reporting
+
 ## 📞 Support
 
 For support, email your-email@example.com or create an issue in the repository.
