@@ -415,7 +415,3 @@ curl -X POST http://localhost/GGDyWeb/auth/login.php \
 - Authentication system
 - Cart management
 - Order processing
-
----
-
-For more information, visit our [GitHub repository](https://github.com/yourusername/GGDyWeb).
