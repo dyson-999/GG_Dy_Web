@@ -277,7 +277,6 @@ If you encounter issues during installation:
 1. Check the troubleshooting section
 2. Search existing issues on GitHub
 3. Create a new issue with detailed information
-4. Contact support: support@ggdy.com
 
 ---
 
