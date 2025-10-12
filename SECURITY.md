@@ -123,5 +123,5 @@ We appreciate the security research community and encourage responsible disclosu
 
 ---
 
-**Last Updated**: January 2025
-**Next Review**: March 2025
+**Last Updated**: April 2025
+**Next Review**: January 2026
