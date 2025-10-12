@@ -222,8 +222,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **[Contributing Guidelines](CONTRIBUTING.md)** - How to contribute to the project
 - **[Security Policy](SECURITY.md)** - Security guidelines and vulnerability reporting
 
-## 📞 Support
-
 
 ## 🔮 Future Enhancements
 
