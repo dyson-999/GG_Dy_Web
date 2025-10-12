@@ -17,7 +17,7 @@ We take security vulnerabilities seriously. If you discover a security vulnerabi
 Security vulnerabilities should be reported privately to avoid potential exploitation.
 
 ### 2. Email us directly
-Send an email to: **security@ggdy.com** (replace with your actual email)
+Send an email to: **dilshanudara512@gmail.com**
 
 Include the following information:
 - Description of the vulnerability
@@ -116,13 +116,6 @@ Include the following information:
 - [ ] Scan for vulnerabilities
 - [ ] Review user permissions
 - [ ] Audit database access
-
-## Contact Information
-
-For security-related questions or concerns:
-- **Email**: security@ggdy.com
-- **Response Time**: Within 48 hours
-- **PGP Key**: [Available upon request]
 
 ## Acknowledgments
 
