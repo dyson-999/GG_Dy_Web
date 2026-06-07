@@ -7,7 +7,7 @@ A modern, responsive e-commerce website for gaming products built with HTML, CSS
 ![MySQL](https://img.shields.io/badge/MySQL-5.7+-orange)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
 
-## 🎮 Features
+## Features
 
 ### Frontend Features
 - **Modern Gaming UI**: Dark theme with red accents and gaming aesthetics
@@ -35,7 +35,7 @@ A modern, responsive e-commerce website for gaming products built with HTML, CSS
 - **Session Management**: Secure session handling
 - **Input Validation**: Server-side validation for all inputs
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - PHP 7.4 or higher
@@ -77,7 +77,7 @@ A modern, responsive e-commerce website for gaming products built with HTML, CSS
    - Open your browser and navigate to your web server URL
    - Default webmaster login: `webmaster` / `password`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 GGDyWeb/
@@ -104,7 +104,7 @@ GGDyWeb/
 └── README.md             # This file
 ```
 
-## 🎯 Key Pages
+## Key Pages
 
 - **Homepage** (`GGDy.html`): Main landing page with featured products
 - **Shop** (`shop.html`): Product catalog with filtering
@@ -113,7 +113,7 @@ GGDyWeb/
 - **Admin Panel** (`admin/`): Webmaster dashboard
 - **Cart**: Shopping cart functionality
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
 - **HTML5**: Semantic markup
@@ -148,9 +148,9 @@ define('DB_NAME', 'ggdy_web');
 - **Password**: `password`
 - **Role**: `webmaster`
 
-> ⚠️ **Important**: Change the default password after first login!
+> **Important**: Change the default password after first login!
 
-## 🎨 Customization
+## Customization
 
 ### Styling
 - Main stylesheet: `style.css`
@@ -170,7 +170,7 @@ define('DB_NAME', 'ggdy_web');
 - Authentication: `auth/` directory
 - Database operations: `config/` directory
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -201,11 +201,11 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -213,7 +213,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📚 Documentation
+## Documentation
 
 - **[Installation Guide](docs/INSTALLATION.md)** - Detailed setup instructions
 - **[API Documentation](docs/API.md)** - Complete API reference
@@ -223,7 +223,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **[Security Policy](SECURITY.md)** - Security guidelines and vulnerability reporting
 
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Payment gateway integration
 - [ ] Advanced search functionality
@@ -236,4 +236,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the gaming community**
+**Made for the gaming community**
